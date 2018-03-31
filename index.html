@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>collage</title>
+
+	<style>
+	div{width: 2000px; height: 1000px; background: white; margin: auto; position: relative;}
+	h1 {color:white;}
+	html{font-family:'HYSinMyeongJo';}
+    .universe{background: url('./img/uni.jpg');
+			  background-size: 100% auto;}
+    .universe img {width:200%;}
+    #blush {width: 2000px; height: 845px; background: mistyrose;}
+    #blush img{width: 75%; 
+    		  position: absolute;
+    		  left:500px; bottom: 2.5px}
+    #blush h1{position: absolute; top: 730px; left: 800px;}
+
+    .truck {position: absolute; width:50%; top:570px; left:5px; transition: all 1s;}
+    .truck:hover{position: absolute; left:-200px;}
+
+    .catcat {position: absolute; width: 30%; top: 5px; left: -50px; transition: all 1s;}
+    .catcat:hover{transform: rotate3d(60,60,60,180deg);}
+ 	.catcat:hover{position: absolute; left:30; top: 85;}
+
+    .toy {position: absolute; width:30%; top:-10px; left: 1400px;}
+
+	.dog{position: absolute; width:30%; top:270px; left:990px;}
+
+	.candy{position: absolute; width:21%; left:770px;}
+
+	#box1{position: absolute; width: 10px; height: 290px;top: 510px; right: 930px;}
+	#box2{position: absolute; width: 700px; height: 10px;top: 800px; right: 930px;}
+	#box3{position: absolute; width: 10px; height: 290px;top: 510px; right: 1620px;}
+	#box4{position: absolute; width: 700px; height: 10px;top: 510px; right: 930px;}
+
+	span{color:white;}
+	span:hover {color:black;}
+
+	</style>
+
+</head>
+
+<body>
+	
+	<div id="universe">
+	<img src="./img/uni.jpg">
+
+	<img src="./img/catcat.png" class="catcat"/>
+	<img src="./img/toy.png" class="toy">
+	<img src="./img/candy.png" class="candy">	
+	</div>
+
+
+	<div id="blush">
+		<img src="./img/ba1.png">
+		<h1><span>갖고싶다</span>너희들</h1>
+		<div id="box1">
+		</div>
+		<div id="box2">
+		</div>
+		<div id="box3">
+		</div>
+		<div id="box4">
+		</div>
+	</div>
+		
+	<img src="./img/dog.png" class="dog">
+	<img src="./img/truck.png" class="truck"/>
+
+	</body>
+</html>
